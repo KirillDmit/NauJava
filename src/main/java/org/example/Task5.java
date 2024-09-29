@@ -91,7 +91,7 @@ public class Task5 implements Task{
                 "C:\\Java Projects\\NauJava\\src\\main\\resources\\test2");
         syncTask.start();
 
-        // Для примера остановим синхронизацию через 30 секунд
+        // Для примера остановим синхронизацию через 3 секунды
         Thread.sleep(3000);
         syncTask.stop();
     }
